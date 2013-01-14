@@ -1,5 +1,7 @@
 package tetrisbot;
 
+import java.awt.image.BufferedImage;
+
 /*
  * General approach:
  * - First we need to have the application be able to detect positioning on 
@@ -17,8 +19,10 @@ public class TetrisBot
 {
 	public static void main(String[] args)
 	{
-		System.out.println("Creating a superbot.. should print something in constructor:");
+		// Tests creation of superbot, and saves the image of the full screen at the address
 		SuperBot superBot = new SuperBot();
-		
+		BufferedImage testImage = superBot.captureFullScreen();
+		superBot.saveImage(testImage, "/home/nd/Desktop/Coding/tetrisImages/test");
+		superBot.saveImage(testImage, "jpg", "/home/nd/Desktop/Coding/tetrisImages/testjpg");
 	}
 }
