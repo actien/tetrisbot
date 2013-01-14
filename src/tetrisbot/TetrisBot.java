@@ -28,7 +28,7 @@ public class TetrisBot
 		//SuperBot superBot = new SuperBot();
 		
 		
-		//TODO: What the heck is this thread stuff/interrupt stuff?
+		//TODO: What is this thread stuff/interrupt stuff?
 		try {
 		    Thread.sleep(2000);
 		} catch(InterruptedException ex) {
