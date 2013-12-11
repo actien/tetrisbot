@@ -5,6 +5,9 @@ A bot to help me learn some java libraries and play tetrisfriends battle2p
 
 Revision History:
 =========================================================================================
+v0.02:
+    - Reviving this.. one year later!
+
 v0.01: 
     - Introduced superBot class, which wraps the Java robot class with some bufferedImage
       writing capabilities.
